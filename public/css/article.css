@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #FFE1AD;
+}
+
+.article-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.article-img{
+    width: 50vw;
+    height: 50vh;
+    margin: 4vh 10vw 4vh 24vw;
+}
+
+.article-content-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.article-content p{
+    margin-left: 65px;
+    margin-bottom: 20px;
+    margin-right: 65px;
+}
+
+.article-conclusion{
+    margin-top: 50px;
+}

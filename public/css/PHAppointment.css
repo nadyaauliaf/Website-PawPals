@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #FFE1AD;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-inner{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    align-items: center;
+    width: 130px;
+    padding-left: 2vw;
+}
+
+.buttonNav a{
+    color: #6B5048;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.buttonNav a:hover{
+    border-bottom: 3px solid #6B5048;
+}
+
+.buttonNav a.active{
+    border-bottom: 3px solid #6B5048;
+}
+
+.logo-right{
+    padding-left: 38vw;
+}
+
+.logo-right img{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.cont-1{
+    position: absolute;
+    width: 1107px;
+    height: 1018px;
+    left: 131px;
+    top: 150px;
+    background: #FFF7E4;
+    border-radius: 20px;
+}
+
+.cont-1 img{
+    position: absolute;
+    width: 280px;
+    height: 220px;
+    left: 40px;
+    top: 30px;
+}
+
+.cont-1 h1{
+    position: absolute;
+    left: 370px;
+    top: 50px;
+    color: #6B5048;
+}
+
+.star-1 img{
+    position: absolute;
+    left: 370px;
+    top: 105px;
+    width: 150px;
+    height: 30px;
+}
+
+.price{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #959595;
+    top: 145px;
+    left: 372px;
+}
+
+.loc{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #959595;
+    top: 175px;
+    left: 372px;
+}
+
+.cont-2{
+    background-color: #FFE1AD;
+    width: 900px;
+    margin-left: 90px;
+    margin-top: 280px;
+    border-radius: 20px;
+}
+
+.cont-2 p{
+    font-weight: bold;
+    color: #6B5048;
+    font-size: 24px;
+    margin-left: 2vw;
+}
+
+.booking{
+    margin-left: 7vw;
+}
+
+.booking #namePet{
+    width: 600px;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #agePet{
+    width: 600px;
+    margin-left: 13vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #breedPet{
+    width: 600px;
+    margin-left: 12vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking label{
+    font-weight: bold;
+    color: #6B5048;
+}
+
+.cont-3{
+    background-color: #FFE1AD;
+    width: 900px;
+    /* margin-left: 20px; */
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.cont-3 p{
+    font-weight: bold;
+    color: #6B5048;
+    font-size: 24px;
+    margin-left: 2vw;
+}
+
+.booking #ownPet{
+    width: 600px;
+    margin-left: 6vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #number{
+    width: 600px;
+    margin-left: 7vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #address{
+    width: 600px;
+    margin-left: 10.6vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.cont-4{
+    background-color: #FFE1AD;
+    width: 900px;
+    /* margin-left: 90px; */
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.cont-4 p{
+    font-weight: bold;
+    color: #6B5048;
+    font-size: 24px;
+    margin-left: 2vw;
+}
+
+.booking #PhIns{
+    width: 600px;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #dateArr{
+    width: 600px;
+    margin-left: 4.2vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #datePick{
+    width: 600px;
+    margin-left: 3.9vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.btn{
+    color: white;
+    background-color: #6B5048;
+    margin-top: 50px;
+    margin-left: 56vw;
+}
+
+.btn:hover{
+    background-color: #6B5048;
+    color: white;
+}

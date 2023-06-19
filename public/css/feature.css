@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #FFE1AD;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-inner{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    align-items: center;
+    width: 130px;
+    padding-left: 2vw;
+}
+
+.buttonNav a{
+    color: #6B5048;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.buttonNav a:hover{
+    border-bottom: 3px solid #6B5048;
+}
+
+.buttonNav a.active{
+    border-bottom: 3px solid #6B5048;
+}
+
+.logo-right{
+    padding-left: 38vw;
+}
+
+.logo-right img{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.cont-1{
+    position: absolute;
+    width: 1107px;
+    height: 276px;
+    left: 131px;
+    top: 150px;
+    background: #FFF7E4;
+    border-radius: 20px;
+}
+
+.cont-1 img{
+    position: absolute;
+    width: 280px;
+    height: 220px;
+    left: 40px;
+    top: 30px;
+}
+
+.cont-1 h1{
+    position: absolute;
+    left: 370px;
+    top: 50px;
+    color: #6B5048;
+}
+
+.star-1 img{
+    position: absolute;
+    left: 370px;
+    top: 105px;
+    width: 150px;
+    height: 30px;
+}
+
+.price{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #959595;
+    top: 145px;
+    left: 372px;
+}
+
+.loc{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #959595;
+    top: 175px;
+    left: 372px;
+}
+
+.BookNow{
+    position: absolute;
+    background-color: #FFE1AD;
+    border-radius: 20px;
+    width: 122px;
+    height: 35px;
+    left: 930px;
+    top: 210px;
+}
+
+.BookNow a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 30px;
+    color: #6B5048;
+    text-decoration: none;
+    padding-left: 11px;
+    padding-top: 5px; 
+} 
+ 
+.cont-2{
+    position: absolute;
+    width: 1107px;
+    height: 276px;
+    left: 131px;
+    top: 500px;
+    background: #FFF7E4;
+    border-radius: 20px;
+}
+
+.cont-2 img{
+    position: absolute;
+    width: 280px;
+    height: 220px;
+    left: 40px;
+    top: 30px;
+}
+
+.cont-2 h1{
+    position: absolute;
+    left: 370px;
+    top: 50px;
+    color: #6B5048;
+}
+
+.star-2 img{
+    position: absolute;
+    left: 370px;
+    top: 105px;
+    width: 150px;
+    height: 30px;
+}
+
+.cont-3{
+    position: absolute;
+    width: 1107px;
+    height: 276px;
+    left: 131px;
+    top: 850px;
+    background: #FFF7E4;
+    border-radius: 20px;
+}
+
+.cont-3 img{
+    position: absolute;
+    width: 280px;
+    height: 220px;
+    left: 40px;
+    top: 30px;
+}
+
+.cont-3 h1{
+    position: absolute;
+    left: 370px;
+    top: 50px;
+    color: #6B5048;
+}
+
+.star-3 img{
+    position: absolute;
+    left: 370px;
+    top: 105px;
+    width: 150px;
+    height: 30px;
+} 

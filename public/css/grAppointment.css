@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #FFE1AD;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-inner{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    align-items: center;
+    width: 130px;
+    padding-left: 2vw;
+}
+
+.buttonNav a{
+    color: #6B5048;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.buttonNav a:hover{
+    border-bottom: 3px solid #6B5048;
+}
+
+.buttonNav a.active{
+    border-bottom: 3px solid #6B5048;
+}
+
+.logo-right{
+    padding-left: 38vw;
+}
+
+.logo-right img{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.cont-1{
+    position: absolute;
+    width: 1107px;
+    height: 1018px;
+    left: 131px;
+    top: 150px;
+    background: #FFF7E4;
+    border-radius: 20px;
+}
+
+.cont-1 img{
+    position: absolute;
+    width: 280px;
+    height: 220px;
+    left: 40px;
+    top: 30px;
+}
+
+.cont-1 h1{
+    position: absolute;
+    left: 370px;
+    top: 50px;
+    color: #6B5048;
+}
+
+.star-1 img{
+    position: absolute;
+    left: 370px;
+    top: 105px;
+    width: 150px;
+    height: 30px;
+}
+
+.price{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #959595;
+    top: 145px;
+    left: 372px;
+}
+
+.loc{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #959595;
+    top: 175px;
+    left: 372px;
+}
+
+.cont-2{
+    background-color: #FFE1AD;
+    width: 900px;
+    margin-left: 90px;
+    margin-top: 280px;
+    border-radius: 20px;
+}
+
+.cont-2 p{
+    font-weight: bold;
+    color: #6B5048;
+    font-size: 24px;
+    margin-left: 2vw;
+}
+
+.booking{
+    margin-left: 7vw;
+}
+
+.booking #namePet{
+    width: 600px;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #agePet{
+    width: 600px;
+    margin-left: 13vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #breedPet{
+    width: 600px;
+    margin-left: 12vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking label{
+    font-weight: bold;
+    color: #6B5048;
+}
+
+.cont-3{
+    background-color: #FFE1AD;
+    width: 900px;
+    /* margin-left: 90px; */
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.cont-3 p{
+    font-weight: bold;
+    color: #6B5048;
+    font-size: 24px;
+    margin-left: 2vw;
+}
+
+.booking #ownPet{
+    width: 600px;
+    margin-left: 6vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #number{
+    width: 600px;
+    margin-left: 7vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #address{
+    width: 600px;
+    margin-left: 10.6vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.cont-4{
+    background-color: #FFE1AD;
+    width: 900px;
+    /* margin-left: 90px; */
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.cont-4 p{
+    font-weight: bold;
+    color: #6B5048;
+    font-size: 24px;
+    margin-left: 2vw;
+}
+
+.booking #GrIns{
+    width: 600px;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.booking #date{
+    width: 600px;
+    margin-left: 8.2vw;
+    margin-top: 2vh;
+    background-color: #FFF7E4;
+}
+
+.btn{
+    color: white;
+    background-color: #6B5048;
+    margin-top: 50px;
+    margin-left: 56vw;
+}
+
+.btn:hover{
+    background-color: #6B5048;
+    color: white;
+}
+
+@media screen and (max-width: 350px) {
+    .buttonNav {
+        width: 300px;
+        display: flex;
+    }
+
+    .buttonNav a{
+        font-size: 20px;
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    .logo-right{
+        width: 200px;
+        display: flex;
+        margin-left: 400px;
+    }
+
+    .logo-right img{
+        width: 25px;
+    }
+
+    .cont-1{
+        position: absolute;
+        left: 30px;
+        width: 1000px;
+    }
+
+    .cont-2{
+        margin-left: 50px;
+    }
+
+    .cont-3{
+        margin-left: 50px;
+    }
+
+    .cont-4{
+        margin-left: 50px;
+    }
+
+    .booking{
+        margin-left: 20vw;
+    }
+
+    .booking #namePet{
+        margin-left: 31vw;
+    }
+    
+    .booking #agePet{
+        margin-left: 44vw;
+    }
+    
+    .booking #breedPet{
+        margin-left: 40vw;
+    }
+    
+    .booking #ownPet{
+        margin-left: 15vw;
+    }
+    
+    .booking #number{
+        margin-left: 20vw;
+    }
+    
+    .booking #address{
+        margin-left: 37vw;
+    }
+
+    .booking #date{
+        margin-left: 27vw;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 420px) {
+    .buttonNav {
+        width: 300px;
+        display: flex;
+    }
+
+    .buttonNav a{
+        font-size: 20px;
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    .logo-right{
+        width: 200px;
+        display: flex;
+        margin-left: 400px;
+    }
+
+    .cont-1{
+        position: absolute;
+        left: 40px;
+        width: 1000px;
+    }
+
+    .cont-2{
+        margin-left: 50px;
+    }
+
+    .cont-3{
+        margin-left: 50px;
+    }
+
+    .cont-4{
+        margin-left: 50px;
+    }
+
+    .booking{
+        margin-left: 20vw;
+    }
+
+    .booking #namePet{
+        margin-left: 27vw;
+    }
+    
+    .booking #agePet{
+        margin-left: 39vw;
+    }
+    
+    .booking #breedPet{
+        margin-left: 35vw;
+    }
+    
+    .booking #ownPet{
+        margin-left: 12vw;
+    }
+    
+    .booking #number{
+        margin-left: 16vw;
+    }
+    
+    .booking #address{
+        margin-left: 30vw;
+    }
+
+    .booking #date{
+        margin-left: 23vw;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 500px) {
+    .buttonNav {
+        width: 300px;
+        display: flex;
+    }
+
+    .buttonNav a{
+        font-size: 20px;
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    .logo-right{
+        width: 200px;
+        display: flex;
+        margin-left: 400px;
+    }
+
+    .cont-1{
+        position: absolute;
+        left: 50px;
+        width: 1000px;
+    }
+
+    .cont-2{
+        margin-left: 50px;
+    }
+
+    .cont-3{
+        margin-left: 50px;
+    }
+
+    .cont-4{
+        margin-left: 50px;
+    }
+
+    .booking{
+        margin-left: 14vw;
+    }
+
+    .booking #namePet{
+        margin-left: 25vw;
+    }
+    
+    .booking #agePet{
+        margin-left: 35vw;
+    }
+    
+    .booking #breedPet{
+        margin-left: 32vw;
+    }
+    
+    .booking #ownPet{
+        margin-left: 12vw;
+    }
+    
+    .booking #number{
+        margin-left: 15vw;
+    }
+    
+    .booking #address{
+        margin-left: 28vw;
+    }
+
+    .booking #date{
+        margin-left: 21vw;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    .buttonNav {
+        width: 300px;
+        display: flex;
+    }
+
+    .logo-right{
+        width: 200px;
+        display: flex;
+        margin-left: 180px;
+        margin-right: 10px;
+    }
+
+    .cont-1{
+        position: absolute;
+        left: 15px;
+        width: 980px;
+    }
+
+    .cont-2{
+        margin-left: 40px;
+    }
+
+    .cont-3{
+        margin-left: 40px;
+    }
+
+    .cont-4{
+        margin-left: 40px;
+    }
+
+    .booking{
+        margin-left: 7vw;
+    }
+
+    .booking #namePet{
+        margin-left: 15vw;
+    }
+    
+    .booking #agePet{
+        margin-left: 20.5vw;
+    }
+    
+    .booking #breedPet{
+        margin-left: 19vw;
+    }
+    
+    .booking #ownPet{
+        margin-left: 8.4vw;
+    }
+    
+    .booking #number{
+        margin-left: 10vw;
+    }
+    
+    .booking #address{
+        margin-left: 17vw;
+    }
+
+    .booking #date{
+        margin-left: 12.8vw;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .buttonNav {
+        /* width: 300px; */
+        display: flex;
+    }
+
+    .logo-right{
+        /* width: 200px; */
+        display: flex;
+        margin-left: -100px;
+        margin-right: 10px;
+    }
+
+    .cont-1{
+        position: absolute;
+        left: 23px;
+        width: 980px;
+    }
+
+    .cont-2{
+        margin-left: 40px;
+    }
+
+    .cont-3{
+        margin-left: 40px;
+    }
+
+    .cont-4{
+        margin-left: 40px;
+    }
+
+    .booking{
+        margin-left: 5vw;
+    }
+
+    .booking #namePet{
+        margin-left: 12vw;
+    }
+    
+    .booking #agePet{
+        margin-left: 16.4vw;
+    }
+    
+    .booking #breedPet{
+        margin-left: 15vw;
+    }
+    
+    .booking #ownPet{
+        margin-left: 7.3vw;
+    }
+    
+    .booking #number{
+        margin-left: 8.6vw;
+    }
+    
+    .booking #address{
+        margin-left: 14vw;
+    }
+
+    .booking #date{
+        margin-left: 10.3vw;
+    }
+
+    .btn{
+        margin-left: 78vw;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .buttonNav {
+        width: 800px;
+    }
+
+    .buttonNav a{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .logo img{
+        align-items: center;
+        width: 200px;
+        padding-left: 2vw;
+    }
+
+    .logo-right{
+        display: flex;
+        margin-left: 300px;
+        /* margin-right: 10px; */
+    } 
+
+    .logo-right img{
+        width: 25%;
+    }
+
+    /* .logo-right img a{
+        width: 40%;
+    } */
+
+    .cont-1{
+        position: absolute;
+        left: 70px;
+        width: 2400px;
+        height: 1500px;
+    }
+
+    .cont-1 img{
+        /* position: absolute; */
+        width: 380px;
+        height: 320px;
+        /*left: 40px;
+        top: 30px; */
+    }
+
+    .cont-1 h1{
+        position: absolute;
+        left: 460px;
+        top: 50px;
+        font-size: 50px;
+    }
+
+    .star-1 img{
+        position: absolute;
+        left: 450px;
+        top: 110px;
+        width: 250px;
+        height: 60px;
+    }
+
+    .cont-2{
+        margin-left: 40px;
+        width: 2200px;
+        /* margin-left: 90px; */
+        margin-top: 380px;
+    }
+
+    .price{
+        position: absolute;
+        top: 165px;
+        left: 462px;
+        font-size: 30px;
+    }
+    
+    .loc{
+        position: absolute;
+        top: 210px;
+        left: 462px;
+        font-size: 30px;
+    }
+
+    .cont-2 p{
+        font-size: 40px;
+    }
+
+    .cont-3{
+        margin-left: 40px;
+    }
+
+    .cont-4{
+        margin-left: 40px;
+    }
+
+    .booking{
+        margin-left: 2vw;
+    }
+
+    .booking label{
+        font-size: 30px;
+    }
+
+    .booking #namePet{
+        margin-left: 9.8vw;
+        font-size: 30px;
+        width: 50%;
+    }
+    
+    .booking #agePet{
+        margin-left: 13vw;
+        font-size: 30px;
+        width: 50%;
+    }
+    
+    .booking #breedPet{
+        margin-left: 12vw;
+        font-size: 30px;
+        width: 50%;
+    }
+    
+    .booking #ownPet{
+        margin-left: 6vw;
+        font-size: 30px;
+        width: 50%;
+    }
+    
+    .booking #number{
+        margin-left: 7vw;
+        font-size: 30px;
+        width: 50%;
+    }
+    
+    .booking #address{
+        margin-left: 11vw;
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .booking #GrIns{
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .booking #date{
+        margin-left: 8.5vw;
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .btn{
+        margin-left: 78vw;
+        margin-top: 50px;
+        font-size: 35px;
+    }
+}

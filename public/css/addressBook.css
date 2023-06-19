@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #FFE1AD;
+    ;
+}
+
+.navbar{
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFE1AD;
+}
+
+.nav-inner{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    align-items: center;
+    width: 130px;
+    padding-left: 2vw;
+}
+
+.logo-right{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+}
+
+.logo-right img{
+    width: 25px;
+}
+
+.line{
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    background-color: #6B5048;
+    left: 3%;
+    top: 15%;
+}
+
+.content{
+    display: flex;
+}
+
+.tr1{
+    position: absolute;
+    background-color: #FFF7E4;
+    width: 40%;
+    height: 30%;
+    border-radius: 20px;
+    top: 25vh;
+    left: 4vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tr1 h3{
+    color: #6B5048;
+    margin-left: 4vw;
+}
+
+.tr1 p{
+    margin-left: 4vw;
+    font-weight: bold;
+    color: #6B5048;
+}
+
+.tr2{
+    position: absolute;
+    background-color: #FFF7E4;
+    width: 40%;
+    height: 30%;
+    border-radius: 20px;
+    top: 60vh;
+    left: 4vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tr2 h3{
+    color: #6B5048;
+    margin-left: 4vw;
+}
+
+.tr2 p{
+    margin-left: 4vw;
+    font-weight: bold;
+    color: #6B5048;
+}
+
+.container2{
+    position: absolute;
+    /* width: 20vw; */
+}
+
+.container2 h3{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #6B5048;
+    left: 60vw;
+    top: 4vh;
+    margin-top: 4vh;
+}
+
+.newAddress{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    left: 60vw;
+    top: 12vh;
+    margin-top: 1vh;
+}
+
+.newAddress label{
+    font-family: 'Open Sans', sans-serif;
+    color: #6B5048;
+    font-weight: bold;
+}
+
+.newAddress input{
+    font-family: 'Open Sans', sans-serif;
+    width: 20vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #FFE1AD;
+    border-color: #6B5048;
+}
+
+.newAddress div{
+    margin-top: 4vh;
+}
+
+.btn{
+    color: white;
+    background-color: #6B5048;
+    border-radius: 20px;
+    border-color: #6B5048;
+    margin-top: 2vh;
+}
+
+.btn:hover{
+    cursor: pointer;
+}

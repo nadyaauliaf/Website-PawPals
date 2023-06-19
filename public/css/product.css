@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: #ffe1ad;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header .header {
+    margin-top: 6.5rem;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: #ffe1ad;
+    border-bottom: 2px solid #6b5048cc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .navbar .navbar-logo {
+    width: 90px;
+    height: 60px;
+  }
+  
+  .navbar .navbar-nav a {
+    color: #6b5048;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 1rem;
+    font-weight: bolder;
+  }
+  
+  .navbar .navbar-extra .i {
+    color: #6b5048;
+    margin: 0 0.5rem;
+  }
+  
+  .container {
+    margin: 2rem;
+    padding: 3rem;
+    background-color: #fff7e4;
+    border-radius: 20px;
+  }
+  
+  .container .content {
+    display: flex;
+  }
+  
+  .container .content .img {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .container .content .desc h1 {
+    font-size: 40px;
+    color: #6b5048;
+    margin-bottom: 0.5rem;
+  }
+  
+  .container .content .desc .star {
+    margin-bottom: 0.5rem;
+  }
+  
+  .container .content .desc .star img {
+    height: 20%;
+    width: 15%;
+  }
+  
+  .container .content .desc h2 {
+    font-size: 30px;
+    color: #6b5048;
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+  }
+  
+  .container .content .desc span {
+    font-size: 22px;
+    color: #6b5048;
+    font-weight: bold;
+    text-decoration: underline 5px solid #6b5048;
+  }
+  
+  .container .content .desc p {
+    font-size: 22px;
+    color: #6b5048;
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  
+  .container .content-2 {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    border-top: 1px solid #6b5048cc;
+    border-bottom: 1px solid #6b5048cc;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .container .content-2 .flex-1 {
+    text-align: center;
+    margin-right: 7rem;
+  }
+  
+  .container .content-2 .flex-2 {
+    text-align: center;
+    border-left: 5px solid #6b5048cc;
+    border-right: 5px solid #6b5048cc;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  
+  .container .content-2 .flex-3 {
+    text-align: center;
+    margin-left: 7rem;
+  }
+  
+  .container .content-2 h1 {
+    color: #6b5048;
+  }
+  
+  .container .content-2 h2 {
+    color: #f58260;
+  }
+  
+  .container .content-3 {
+    padding: 3rem;
+  }
+  
+  .container .content-3 h1 {
+    font-size: 30px;
+  }
+  
+  .container .content-3 .count {
+    display: flex;
+  }
+  
+  .container .content-3 .counter {
+    display: flex;
+    border: 1px solid #00000080;
+    width: 300px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  
+  .container .content-3 .counter .ic {
+    text-align: left;
+    margin-right: 5rem;
+    color: #00000080;
+  }
+  
+  .container .content-3 .counter .tc {
+    text-align: left;
+    font-size: 37px;
+  }
+  
+  .container .content-3 .counter .dc {
+    text-align: left;
+    margin-left: 5rem;
+    color: #f58260;
+  }
+  
+  .container .content-3 .counter .i-1 {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .container .content-3 .count .stock {
+    margin: 2.3rem 0 0 4rem;
+    font-size: 28px;
+  }
+  
+  .container .content-3 .count .stock span {
+    font-weight: bold;
+  }
+  
+  .container .content-3 .button-1 {
+    background-color: #6b5048;
+    color: white;
+    text-align: center;
+    width: 50%;
+    padding: 0.7rem;
+    margin-top: 3rem;
+  }
+  
+  .container .content-3 .button-2 {
+    background-color: white;
+    color: #6b5048;
+    text-align: center;
+    width: 50%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border: 1px solid #f58260;
+  }
+  
+  .container .content-3 .button-1 h1 {
+    font-size: 25px;
+  }
+  
+  .container .content-3 .button-2 h1 {
+    font-size: 24px;
+  }
+  
+  .container .content-3 .total {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .container .content-3 .total p {
+    font-size: 24px;
+    color: #00000080;
+  }
+  
+  .container .content-3 .total span {
+    color: black;
+  }
+  
+  .container .content-3 .deliv {
+    margin-top: 5rem;
+    font-size: 17px;
+  }
+  
+  .container .content-3 .deliv table {
+    background-color: #d9d9d9;
+    padding: 0.2rem;
+    width: 500px;
+    margin-top: 1rem;
+  }
+  
+  .container .content-3 .deliv table .i-i {
+    text-align: right;
+  }
+  

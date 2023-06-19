@@ -1,0 +1,296 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #FFE1AD;
+}
+
+.navbar{
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFE1AD;
+}
+
+.nav-inner{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    align-items: center;
+    width: 130px;
+    padding-left: 2vw;
+}
+
+.searchbox i{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 7.5px;
+}
+
+.searchbox .d-flex{
+    width: 500px;
+}
+
+.searchbox .form-control{
+    left: .5rem;
+    padding-left: 2.5rem;
+}
+
+.searchbox form{
+    margin-left: 350px;
+}
+
+.logo-right{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+}
+
+.logo-right img{
+    width: 25px;
+}
+
+.container{
+    position: relative;
+}
+
+.container img{
+    padding-top: 30px;
+    width: 1400px;
+    height: 700px;
+}
+
+.text-center {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+.cont{
+    display: flex;
+}
+
+.services {
+    width: 8rem;
+    margin-left: 130px;
+    margin-top: 50px;
+	box-sizing: border-box;
+    text-align: center;
+    background-color: #FFF7E4;
+	border-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.services .card-img-top{
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    padding-left: 7vw;
+    padding-top: 10vh;
+}
+
+.top-product-cat {
+    width: 15rem;
+	margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+	box-sizing: border-box;
+    text-align: center;
+    background-color: #FFF7E4;
+	border-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.top-product-puppy {
+    width: 15rem;
+	margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+	box-sizing: border-box;
+	float: left;
+    text-align: center;
+    background-color: #FFF7E4;
+	border-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.see-all-button .btn{
+    background-color: #6B5048;
+}
+
+.see-all-button{
+    text-align: center;
+}
+
+.article{
+    width: 25rem;
+	margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 250px;
+	box-sizing: border-box;
+    background-color: #FFF7E4;
+	border-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.article .card-img-top{
+    width: 23.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.article h5{
+    margin-left: 8px;
+}
+
+.article p {
+    margin-left: 8px;
+}
+
+.article .article-button{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.article-button .btn {
+    background-color: #6B5048;
+}
+
+.line{
+    width: 93%;
+    height: 2px;
+    background-color: #6B5048;
+    margin-left: 4vw;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #000000;
+    background-color: #FFE1AD;
+    font-family: 'Trebuchet MS';
+}
+
+.footer > * {
+    flex:  1 100%;
+}
+
+.left-footer {
+    margin-right: 20px;
+}  
+
+.left-footer img{
+    width: 200px;
+    margin-left: 120px;
+}
+
+.box a {
+    color: #000000;
+}
+
+.footer h2 {
+    font-weight: 800;
+    font-size: 15px;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.footer li {
+    line-height: 32px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.right-footer {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.right-footer > * {
+    flex: 1 50%;
+    margin-right: 20px;
+}
+
+.right-footer > * {
+    flex: 1;
+}
+    
+.features {
+    flex-grow: 2;
+}
+    
+.left-footer {
+    flex: 1 0px;
+}
+    
+.right-footer {
+    flex: 2 0px;
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+    .logo-right{
+        display: inline-block;
+        position: absolute;
+    }
+
+    .searchbox form{
+        margin-left: 130px;
+    }
+
+    .services {
+        margin-left: 65px;
+    }
+
+    .top-product-cat {
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+
+    .top-product-cat .card-img-top{
+        width: 180px;
+    }
+
+    .top-product-puppy {
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+
+    .top-product-puppy .card-img-top{
+        width: 200px;
+    }
+
+    .article{
+        width: 15rem;
+        margin-left: 68px;
+    }
+
+    .article .card-img-top{
+        width: 13.5rem;
+    }
+}

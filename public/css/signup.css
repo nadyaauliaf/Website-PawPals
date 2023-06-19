@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #FFE1AD;
+}
+
+.frame{
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    height: 700px;
+    left: 170px;
+    top: 40px;
+    background: rgba(255, 247, 228, 0.95);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.frame img{
+    /* display: block; */
+    /* align-items: center; */
+    padding-left: 8vw;
+    padding-top: 22vh;
+    width: 480px;
+    height: 520px;
+}
+
+.join{
+    position: absolute;
+    /* right: 80px; */
+    display: flex;
+    flex-direction: column;
+    left: 550px;
+    top: 150px;
+}
+
+.joinTitle{
+    color: #6B5048;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    padding-left: 9vw;
+}
+
+.btn{
+    color: white;
+    background-color: #6B5048;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #6B5048;
+    color: white;
+}
+
+.join label{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.join input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(255, 247, 228, 0.95);
+    /* margin-top: 20px; */
+}

@@ -1,0 +1,165 @@
+*{
+    background: #FFE1AD;  
+  }
+  body{
+      margin: 0%;
+      padding: 0%;
+      background: #FFE1AD;
+  }
+  
+  .keranjang{
+      background-color: #FFE1AD;
+  }
+  
+  .navbar{
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #FFE1AD;
+  }
+  
+  .nav-inner{
+      display: flex;
+      align-items: center;
+  }
+  
+  .logo img{
+      align-items: center;
+      width: 130px;
+      padding-left: 2vw;
+  }
+  
+  .buttonNav a{
+      color: #6B5048;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      margin-left: 30px;
+      text-decoration: none;
+  }
+  
+  .buttonNav a:hover{
+      border-bottom: 3px solid #6B5048;
+  }
+  
+  .buttonNav a.active{
+      border-bottom: 3px solid #6B5048;
+  }
+  
+  .logo-right{
+      padding-left: 38vw;
+  }
+  
+  .logo-right img{
+      width: 25px;
+      margin-left: 10px;
+  }
+  
+  .my-cart{
+      background-color: #FFE1AD;
+      padding-bottom: 30px;
+      margin-bottom: -5px;
+      padding-left: 205px;
+  }
+  
+  .container {
+      background-color: #FFE1AD;
+  }
+  
+  .cart .table{
+      margin-bottom: 30px;
+      border-bottom: 1px solid #000;
+  }
+  .cart .table thead tr th{
+      border-top:0px;
+      font-size:16px;
+      font-weight: bold;
+      border-bottom:0px;
+  }
+  .cart .table thead tr td{
+      padding-top:30px;
+      padding-bottom: 30px;
+      vertical-align: middle;
+      align-self: center;
+  }
+  .cart .table tbody tr td .main .d-flex{
+      padding-right:30px;
+  }
+  .cart .table tbody tr td .main .d-flex img{
+      border-radius: 3px;
+  }
+  .cart .table tbody tr td .main .des{
+      vertical-align: middle;
+      align-self: center;
+  }
+  .cart .table tbody tr td .main .des p{
+      margin-bottom:0px;
+  }
+  .cart .table tbody tr td h6{
+      font-size:16px;
+      color:#000;
+      margin-bottom: 0px;
+  }
+  .cart .table tbody tr td .counter{
+      margin-bottom:0px;
+  }
+  .counter i{
+      border: 1px solid #000;
+      padding: 7px;
+      display: inline-block;
+      position: relative;
+  }
+  .cart .table tbody tr td .counter input{
+      width: 100px;
+      padding-left:30px;
+      height: 40px;
+      outline:none;
+      box-shadow: none;
+  }
+  
+  .payment{
+      background-color: #FFE1AD;
+  }
+  
+  .checkout{
+      padding-bottom: 80px;
+  }
+  
+  .checkout ul{
+      border: 2px solid #FFE1AD;
+      background: #FFE1AD;
+      padding-left:25px;
+      padding-right:25px;
+      padding-top:16px;
+      padding-bottom: 20px;
+  }
+  .checkout ul li{
+      list-style: none;
+      font-size:16px;
+      font-weight: bold;
+      /* color:#252525; */
+      text-transform: uppercase;
+      overflow: hidden;
+  }
+  
+  .checkout ul li.cart-total{
+      padding-top: 10px
+  }
+  .checkout ul li.cart-total span{
+      color:#000;
+  }
+  .checkout ul li span{
+      float:right;
+  }
+  .checkout .proceed-btn{
+      font-size:15px;
+      font-weight: bold;
+      color:#fff;
+      background:#6B5048;
+      text-transform: uppercase;
+      padding:15px 25px 14px 25px;
+      display: block;
+      text-align: center;
+      border-radius: 20px;
+  }
